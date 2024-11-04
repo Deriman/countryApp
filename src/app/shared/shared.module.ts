@@ -12,8 +12,8 @@ import { ContactPageComponent } from './pages/contact-page/contact-page.componen
   declarations: [
     HomePageComponent,
     AboutPageComponent,
-    SidebarComponent,
-    ContactPageComponent
+    ContactPageComponent,
+    SidebarComponent
   ],
   imports: [
     CommonModule,
