@@ -13,11 +13,6 @@
 <hr>
 <div class="row">
     <div class="col">
-        <!-- Table -->
-         <ul>
-            <li *ngFor="let country of countriesList">
-                {{ country.capital}}
-            </li>
-         </ul>
+        <countries-table [countries] = "countries" ></countries-table>
     </div>
 </div>
